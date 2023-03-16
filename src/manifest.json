@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "find-my-text",
+      "identifier": "find-my-text.sah",
+      "script": "./find-my-text.js",
+      "shortcut" : "ctrl j"
+    },
+    {
+      "name": "select-highlight-text",
+      "identifier": "find-my-text.select-highlight-text",
+      "script": "./select-highlight-text.js",
+      "shortcut" : "ctrl t"
+    },
+    {
+      "name": "select-highlight",
+      "identifier": "find-my-text.select-highlight",
+      "script": "./select-highlight.js",
+      "shortcut" : "ctrl h"
+    },
+    {
+      "name": "view-prev-highlight",
+      "identifier": "find-my-text.prev-highlight",
+      "script": "./prev-highlight.js",
+      "shortcut" : "ctrl ,"
+    },
+    {
+      "name": "view-next-highlight",
+      "identifier": "find-my-text.next-highlight",
+      "script": "./next-highlight.js",
+      "shortcut" : "ctrl ."
+    }
+  ],
+  "menu": {
+    "title": "🔍 find-my-text",
+    "items": [
+      "find-my-text.sah",
+      "find-my-text.select-highlight-text",
+      "find-my-text.select-highlight",
+      "find-my-text.prev-highlight",
+      "find-my-text.next-highlight"
+    ]
+  }
+}
