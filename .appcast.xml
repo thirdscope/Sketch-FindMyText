@@ -4,5 +4,8 @@
     <item>
       <enclosure url="https://github.com/thirdscope/Sketch-FindMyText/releases/download/v1.0.0/find-my-text.sketchplugin.zip" sparkle:version="1.0.0"/>
     </item>
+    <item>
+      <enclosure url="https://github.com/thirdscope/Sketch-FindMyText/releases/download/v1.0.0/find-my-text.sketchplugin.zip" sparkle:version="1.0.0"/>
+    </item>
   </channel>
 </rss>
